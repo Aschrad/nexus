@@ -9,6 +9,7 @@ ENV NEXUS_VERSION="3.6.0-02" \
     SONATYPE_WORK=${SONATYPE_DIR}/sonatype-work \
     JAVA_MIN_MEM="1200M" \
     JAVA_MAX_MEM="1200M" \
+    NEXUS_URL="\" \
     JKS_PASSWORD="changeit"
 
 RUN set -x \
